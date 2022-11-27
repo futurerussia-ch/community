@@ -1,0 +1,17 @@
+name: Событие
+description: Организация мероприятий и событий 
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за помощь! Мы стараемся сделать наш веб-сайт лучше
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Что мы можем сделать?
+      description: Опишите, что можно было бы сделать лучше
+      value: "Сделайте хорошо!"
+    validations:
+      required: true
